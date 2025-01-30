@@ -146,44 +146,8 @@ class _EducateState extends State<Educate> {
                   ),
                 ),
               // Educate items
-              Container(
-                padding: EdgeInsets.all(10),
-                margin: EdgeInsets.all(8),
-                decoration: BoxDecoration(
-                  color: ChembaColor.containerColor,
-                  borderRadius: BorderRadius.circular(10),
-                ),
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: [
-                    Text(
-                      MyPageText.importance,
-                      style:
-                          TextStyle(fontSize: 16, fontWeight: FontWeight.w700),
-                    ),
-                    Image.asset(ChembaPath.faqicon)
-                  ],
-                ),
-              ),
-              Container(
-                padding: EdgeInsets.all(10),
-                margin: EdgeInsets.all(8),
-                decoration: BoxDecoration(
-                  color: ChembaColor.containerColor,
-                  borderRadius: BorderRadius.circular(10),
-                ),
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: [
-                    Text(
-                      MyPageText.type,
-                      style:
-                          TextStyle(fontSize: 16, fontWeight: FontWeight.w700),
-                    ),
-                    Image.asset(ChembaPath.faqicon)
-                  ],
-                ),
-              ),
+              EducateItems(),
+              EducateItems(),
             ],
           ),
         ),
@@ -191,6 +155,34 @@ class _EducateState extends State<Educate> {
       //bottom Navigation bar
       bottomNavigationBar: BottomNavigate(
         radius: 15,
+      ),
+    );
+  }
+}
+
+class EducateItems extends StatelessWidget {
+  const EducateItems({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      padding: EdgeInsets.all(10),
+      margin: EdgeInsets.all(8),
+      decoration: BoxDecoration(
+        color: ChembaColor.containerColor,
+        borderRadius: BorderRadius.circular(10),
+      ),
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        children: [
+          Text(
+            MyPageText.importance,
+            style: TextStyle(fontSize: 16, fontWeight: FontWeight.w700),
+          ),
+          Image.asset(ChembaPath.faqicon)
+        ],
       ),
     );
   }
