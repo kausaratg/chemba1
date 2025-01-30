@@ -1,0 +1,30 @@
+class ChembaPath {
+  static const logoPath = "images/logo.png";
+  static const mapPath = "images/map.png";
+  static const carImage = "images/car.png";
+  static const eventPath1 = "images/event1.png";
+  static const eventPath2 = "images/event2.png";
+  static const eventPath3 = "images/event2.png";
+  static const faqicon = "images/faqicon.png";
+  static const arrowup = "images/arrowup.png";
+  static const suffixicon = "images/suffixicon.png";
+  static const cloudicon = "images/cloudicon.png";
+  static const profileicon1 = "images/profileicon1.png";
+  static const profileicon2 = "images/profileicon2.png";
+  static const profileicon3 ="images/profileicon3.png";
+  static const helpicon1 = "images/helpicon1.png";
+  static const helpicon2 ="images/helpicon2.png";
+  static const facebookicon ="images/facebook.png";
+  static const instagramicon ="images/instagram.png";
+  static const twittericon ="images/twitter.png";
+  static const linkdelnicon ="images/linkdeln.png";
+  static const youtubeicon ="images/youtube.png";
+  static const securityicon1 = "images/securityicon1.png";
+  static const securityicon2 = "images/securityicon2.png";
+  static const securityicon3 = "images/securityicon3.png";
+  static const bottomnavigateicon1 = 'images/icon1.png';
+  static const  bottomnavigateicon2= "images/icon2.png";
+  static const  bottomnavigateicon3= 'images/icon3.png';
+  static const  bottomnavigateicon4 = "images/icon4.png";
+  static const  emptytext = "";
+}

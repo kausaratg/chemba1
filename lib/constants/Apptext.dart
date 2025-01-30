@@ -1,0 +1,50 @@
+class MyPageText {
+  static String label1 = "User Name";
+  static String label2 = "Email";
+  static String label3 = "Password";
+  static String label4 = "Basic User \n\nGarbage Collector \n\nScrap Dealer";
+  static String account = "Already Have an account?";
+  static String signin = "Sign In";
+  static String signup = "Sign Up";
+  static String forget = "Forgot Password?";
+  static String noaccount = "Don't have an account yet?";
+  static String register = "Register Now";
+  static String events = "Events";
+  static String faq = "FAQ";
+  static String educate = "Educate";
+  static String event1 = "Kibera Clean up 16th May 2023";
+  static String event2 = "Kisumu Recycling Bins installation 19th May 2023";
+  static String event3 = "";
+  static String faqtext = "What is Chemba and how does it work?";
+  static String waste = "What is Waste?";
+  static String wastemangement = "Waste Management";
+  static String wasteexplanation =
+      "This are activities that are aimed in the reduction of adverse effects of waste on human health, the environment, planetary resources and aesthetics, by several methods ";
+  static String importance = " Importance of waste Management";
+  static String type = " Types of Waste";
+  static String profile = "Profile";
+  static String dm = "DM";
+  static String name = "DAVID MBUGUA";
+  static String email = "david@gmail.com";
+  static String point = "Points:";
+  static String total = "1,000";
+  static String help = "Help & Support";
+  static String security = "Security & Privacy";
+  static String logout = "Log out";
+  static String forecast = "Forecast";
+  static String location = "Type your location";
+  static String country = "Accra";
+  static String celcius = "19°C";
+  static String weather = "Sunny";
+  static String date = "Saturday, 6 May";
+  static String wforecast = "Weather Forecast ";
+  static String number = "19";
+  static String helptext =
+      "We're always here to answer any of your questions, and support of any kind.";
+    static String textbox1 = "Chat with Customer Support";
+    static String textbox2 = "Send us an E-mail";
+    static String connect = "Connect with us on:";
+    static String securitybox1 = "Privacy Policy";
+    static String securitybox2 = "Terms of service";
+    static String securitybox3 = "Devices";
+}
